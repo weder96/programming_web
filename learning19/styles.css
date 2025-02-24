@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://www.calliaweb.co.uk/wp-content/uploads/2015/10/600x400.jpg'), url('https://www.calliaweb.co.uk/wp-content/uploads/2015/10/450x300.jpg'); /* Duas imagens */
+    background-size: 60%, 30%; /* Tamanhos diferentes para as imagens */
+    background-position: left top, right bottom; /* Posições diferentes para as imagens */
+    background-repeat: no-repeat; /* Não repete as imagens */
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+li {
+    display: inline;
+    padding: 3px;
+    border: 1px solid grey;
+    width: 5em;
+}

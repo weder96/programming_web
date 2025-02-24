@@ -1,0 +1,6 @@
+li {
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid grey;
+    width: 5rem;
+}

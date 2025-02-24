@@ -1,0 +1,7 @@
+h1 + p {
+    color: red;
+  }
+  h1 ~ p {
+    font-style: italic;
+  }
+  
