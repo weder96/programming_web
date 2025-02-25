@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="get" enctype="multipart/form-data" >
+        <input type="text" name="myname"                      
+           minlength="3"
+           maxlength="6"
+           placeholder="digite seu nome,please!!!"
+           />  <!-- txt-->
+          <br/><br/>
+
+         <input type="number" name="tpNumber"                
+                min="1" 
+                max="30"
+                step="2"
+                />  <!-- df--> 
+
+
+                
+          <input type="email" name="email" 
+            pattern=".+gmail.com"
+            title="somente emails gmail.com.br serão aceitos"
+          />       
+        <br/>
+
+        <p>senha</p>
+        <input type="password" 
+               name="senha" 
+               value="name" />
+
+
+        <p>File</p>
+        <input type="file" 
+               name="file"  
+               multiple       
+        /> 
+
+        <br/><br/>
+
+        <p>Range</p>
+        <input type="range" 
+               name="range"   
+               min="1"
+               max="100"
+               value="90"                  
+        /> 
+
+        <br/><br/>
+
+        <p>Color</p>
+        <input type="color" 
+               name="color"   
+
+        /> 
+
+        <br/><br/>
+
+        <p>checkbox</p>
+        <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+        <input type="checkbox" name="service" value="lastfm" /> Last.fm
+        <input type="checkbox" name="service" value="spotify" /> Spotify
+        
+        <br/><br/>
+
+        <p>Please select your favorite genre:</p><br />
+       <input type="radio" name="genre" value="rock" 
+              checked="checked" /> Gospel
+       <input type="radio" name="genre" value="pop" /> Pop
+    <input type="radio" name="genre" value="jazz" /> Jazz
+
+
+    <br/><br/>
+
+
+        <button type="submit" 
+                name="lavai"
+                value="ok2">
+                Enviar
+        </button>
+    </form>
+</body>
+</html>
