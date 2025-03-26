@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Courier_Prime_Regular"; src: url('fonts/Courier_Prime/CourierPrime-Regular.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Italic";src: url('fonts/Courier_Prime/CourierPrime-Italic.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Bold";src: url('fonts/Courier_Prime/CourierPrime-Bold.ttf');              
+}
+@font-face {
+    font-family: "Poppins"; src: url('fonts/Poppins/Poppins-Light.ttf'); 
+}
+@font-face {
+    font-family: "Poppins_bold"; src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
+/* ------------------------------------------------------------------- 
+ * ## background and  colors 
+ * ------------------------------------------------------------------- */
+:root { 
+    --var_background : #efefef;
+    --var_color : #efefef;
+    --var_back_column1 : #647883;
+}
+/* ------------------------------------------------------------------- */
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
