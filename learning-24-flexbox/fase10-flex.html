@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           border: 2px solid #000000; 
+           display: flex;
+        }
+        .item{
+            --hue: 0;
+            border: 1px solid yellow;
+            color: #FFFFFF;
+            font-weight: bold;
+            text-align: center;      
+            font-size: 50px;                   
+            background-color: hsl(var(--hue), 100%, 70%); 
+            flex: 60px;           
+        }        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" style="--hue: 0">1</div>
+        <div class="item" style="--hue: 100">2</div>
+        <div class="item" style="--hue: 200">3</div>
+        <div class="item" style="--hue: 300">4</div>
+    </div>
+</body>
+</html>
