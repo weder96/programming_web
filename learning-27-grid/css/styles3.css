@@ -1,0 +1,21 @@
+#app{
+    border: 2px solid #000000; 
+    display: grid;   
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;    
+    height: 50vh;            
+ }
+ .item{
+     --hue: 0;
+     border: 3px solid yellow;     
+     color: #FFFFFF;
+     font-weight: bold;
+     text-align: center;      
+     font-size: 90px;                   
+     background-color: hsl(var(--hue), 82%, 70%);                         
+ }   
+
+ .item:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+ }
