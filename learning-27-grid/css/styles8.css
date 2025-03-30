@@ -1,0 +1,33 @@
+#app{
+    border: 2px solid #000000; 
+    display: grid; 
+    grid-template-areas: "A B B" 
+                         "A B B"                        
+                         "A C D";  
+   gap: 20px;       
+   padding: 30px;
+   box-sizing: border-box;                   
+   height: 70vh;           
+ }
+ .item{
+     --hue: 0;
+     border: 3px solid yellow;     
+     color: #FFFFFF;
+     font-weight: bold;
+     text-align: center;      
+     font-size: 110px;  
+     padding-top: 25px;                 
+     background-color: hsl(var(--hue), 82%, 70%);                         
+ }  
+
+  
+ .item:nth-child(1){
+   grid-row-start: 1;     
+   grid-row-end: 4;     
+}
+.item:nth-child(2){
+   grid-column: 2/4;
+   grid-row: 1/3;   
+}
+
+ 

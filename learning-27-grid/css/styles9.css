@@ -1,0 +1,35 @@
+#app{
+    border: 2px solid #000000; 
+    display: grid; 
+    grid-template: 
+      "A B B" 300px 
+      "A B B" 25px
+      "A C D" 90px / 90px 2fr 1fr;  
+   gap: 10px;       
+   padding: 30px;
+   box-sizing: border-box;    
+   
+  
+ }
+ .item{
+     --hue: 0;
+     border: 3px solid yellow;     
+     color: #FFFFFF;
+     font-weight: bold;
+     text-align: center;      
+     font-size: 40px;  
+     padding-top: 25px;                 
+     background-color: hsl(var(--hue), 82%, 70%);                         
+ }  
+
+  
+ .item:nth-child(1){
+   grid-row-start: 1;     
+   grid-row-end: 4;     
+}
+.item:nth-child(2){
+   grid-column: 2/4;
+   grid-row: 1/3;   
+}
+
+ 

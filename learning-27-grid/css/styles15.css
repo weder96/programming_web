@@ -1,0 +1,20 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ul{    
+    display: grid;         
+    
+    height: 100vh;
+    background: #000000;   
+    grid-auto-flow: column;   
+    grid-auto-columns: max-content;    
+    gap: 30px;       
+ }
+
+ li a{
+   padding-left: 25px;
+   color: #FFFFFF;       
+ }
+
