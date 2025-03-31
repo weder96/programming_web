@@ -104,6 +104,12 @@ h1{
     width: 30%;
  }
 
+.column2 img { 
+    width: 300px;   
+    height: 26rem;
+    object-fit: cover;
+ }
+
 
  .article {    
     height: 27rem;
